@@ -49,6 +49,20 @@ img {
   border-radius: 5px 5px 0 0;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width:767px) {
+    table tr > *{
+        display: block;
+    }
+    /*table tr {
+        display: table-cell;
+    }*/
+}
+
 
 
 </style>
@@ -58,9 +72,9 @@ img {
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><img src="images/cp-nav-logo.png"></a>
+	      <a class="navbar-brand" href="#tpage"><img src="images/cp-nav-logo.png" class="responsive"></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span>
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
@@ -77,10 +91,11 @@ img {
 	  </nav>
     <!-- END nav -->
 
+    
 
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/cp-bg.png');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight responsive" style="background-image: url('images/cp-bg.png');" data-stellar-background-ratio="0.5">
 
-      <div class="container">
+      <div class="container" id="tpage">
         <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
           <table>
             <tr>
@@ -93,14 +108,16 @@ img {
               <td><div class="mb-4 align-items-center"></div></td>
             </tr>
             	<tr>
-                <td><div class="mb-4 align-items-center"><img src = "images\cp-header-logo.png"></div></td>
+                <td><div class="mb-4 align-items-center"><img src = "images\cp-header-logo.png" class="responsive"></div></td>
               </tr>
-             
+          
+              <br><br>
+              
           		  <tr>
                   <td><div class="mb-4 align-items-center"><h4 align="center"> 02<sup>nd</sup> to 09<sup>th</sup> June, 2019</h4></div></td>
-					     </tr>
+					     </tr></table>
 					    
-          	</table>
+       
           </div>
         </div>
       </div>
@@ -108,19 +125,21 @@ img {
 
     <section class="ftco-section services-section bg-light" id="about">
       <div class="container">
+      	<br>
+      	<center><h3>ABOUT GIRLSCRIPT</h3></center>
+      	<br>
         <table cellpadding="5">
-        	<tr>
-        		<td colspan = 2><center><h3>ABOUT GIRLSCRIPT</h3></center></td>
-        	</tr>
+        	
         	<tr>
         		<td><img src="images/gslogo.png"></td>
         		<td><p>GirlScript is a section-8 company registered under Government of India established on 2nd of June, 2017. It started under Mozilla Open Leaders Program to help beginners in technology and programming. GirlScript is open for all community, although it supports diversity and wants to bring equality in tech, therefore, reserves 50% of seats for under-represented groups including women, LGBTQ etc.GirlScript and its different initiatives are driven by leaders throughout the world.</p></td>
         	</tr>
         </table>
+        <br>
+        <center><h3>ABOUT CODEPRENEUR WEEK</h3></center>
+        <br>
         <table>
-        	<tr>
-        		<td colspan = 2><center><h3>ABOUT CODEPRENEUR WEEK</h3></center></td>
-        	</tr>
+        	
         	<tr>
         		<td><p>One week fully funded residential learning and interacting program for students across India. For every track, 25 students will be selected (on the basis of a rigorous selection process) for which GirlScript foundation will pay for their travel, accomodation, food, certificate, swags and learning materials. Tracks for Codepreneur Week 2019 are -</p>
         			<ul>
@@ -137,13 +156,15 @@ img {
       </div>
     </section>
 
-    <section id="selection">
+    <section id="selection" style="background-image: url('images/cp-bg.png'); height: 100%;background-position: center; background-repeat: no-repeat; background-size: cover;" data-stellar-background-ratio="0.5">
       <section class="ftco-counter img" id="section-counter">
+      	<br><br>
+      	<b><u><h3><center>SELECTION PROCESS</center></h3></u></b>
       	<br><br>
       	<div class="container table-responsive">
       		<center><table cellpadding="30" class="table">
-      			<tr><td colspan = 4 ><h3><center>SELECTION PROCESS</center></h3></td></tr>
-      			<tr><td width="500px">
+      			
+      			<tr><td>
       				<div class="card">
   
   <div class="container">
@@ -153,7 +174,7 @@ img {
 </div>
 
       			</td>
-      		<td width="500px">
+      		<td>
       				<div class="card">
 
   <div class="container">
@@ -163,7 +184,7 @@ img {
 </div>
 
       			</td>
-      		<td width="500px">
+      		<td>
       				<div class="card">
 
   <div class="container">
@@ -173,7 +194,7 @@ img {
 </div>
 
       			</td>
-      		<td width="500px">
+      		<td>
       				<div class="card">
 
   <div class="container">
@@ -185,8 +206,54 @@ img {
       			</td></tr>
       		</table></center><br><br>
       	</div>
+
       </section>
-    </section>
+  
+    
+    	<br><br>
+    	<center><b><h3><u>CAMPUS AMBASSADOR PROGRAM</u></h3></b></center>
+    		<br><br>
+    		
+    		<div class="container table-responsive">
+    			<center>
+    			<table cellpadding="30" class="table">
+    				<tr>
+    					<td>
+      				<div class="card">
+  
+  <div class="container">
+    <h4><b><a href="#" target="_blank"><center>APPLY ONLINE</center></a></h4> </b>
+  </div>
+</div>
+
+      			</td>
+
+      			<td>
+      				<div class="card">
+  
+  <div class="container">
+    <h4><b><a href="#" target="_blank"><center>LEADERBOARD</center></a></h4> </b>
+  </div>
+</div>
+
+<td>
+      				<div class="card">
+  
+  <div class="container">
+    <h4><b><a href="#" target="_blank"><center> PERKS</center></a></h4> </b>
+  </div>
+</div>
+
+      			</td>
+
+      			</td>
+      		
+    				</tr>
+    			</table></center>
+    		</div>
+    		<br><br>
+    	  </section>
+    
 
 		
     <section class="ftco-section bg-light" id="apply">
@@ -270,10 +337,12 @@ img {
     <section id="partners" style="background-image: url('images/cp-bg.png'); height: 100%;background-position: center; background-repeat: no-repeat; background-size: cover;" data-stellar-background-ratio="0.5">
       <section class="ftco-counter img" id="section-counter">
       	<br><br>
+      	<h3><center>PARTNERS</center></h3>
+      	<br><Br>
       	<div class="container table-responsive">
       		<center><table cellpadding="30" class="table">
-      			<tr><td colspan = 5 ><h3><center>PARTNERS</center></h3></td></tr>
-      			<tr><td width="500px">
+      			
+      			<tr><td>
       				<div class="card">
   
   <div class="container">
@@ -284,7 +353,7 @@ img {
 </div>
 
       			</td>
-      		<td width="500px">
+      		<!-- <td>
       				<div class="card">
 
   <div class="container">
@@ -294,7 +363,7 @@ img {
 </div>
 
       			</td>
-      		<td width="500px">
+      		<td>
       				<div class="card">
 
   <div class="container">
@@ -303,9 +372,9 @@ img {
   </div>
 </div>
 
-      			</td>
-      		<td width="500px">
-      				<div class="card">
+      			</td> -->
+      		<td>
+      				<div class="card"> 
 
   <div class="container">
   	<br>
@@ -316,7 +385,7 @@ img {
 
       			</td>
 
-      		<td width="500px">
+      		<!-- <td>
       				<div class="card">
   
   <div class="container">
@@ -325,14 +394,16 @@ img {
   </div>
 </div>
 
-      			</td></tr>
+      			</td> --> </tr>
       		</table></center><br><br>
-
+<!-- Sponsors Here
+	<h3><center>SPONSORS</center></h3>
+	<br><br>
       		<div class="container table-responsive">
       		<center><table cellpadding="30" class="table">
-      			<tr><td colspan = 5 ><h3><center>SPONSORS</center></h3></td></tr>
       			
-<tr><td width="500px">
+      			
+<tr><td>
       				<div class="card">
   
   <div class="container">
@@ -343,7 +414,7 @@ img {
 </div>
 
       			</td>
-      		<td width="500px">
+      		<td>
       				<div class="card">
 
   <div class="container">
@@ -353,7 +424,7 @@ img {
 </div>
 
       			</td>
-      		<td width="500px">
+      		<td>
       				<div class="card">
 
   <div class="container">
@@ -363,7 +434,7 @@ img {
 </div>
 
       			</td>
-      		<td width="500px">
+      		<td>
       				<div class="card">
 
   <div class="container">
@@ -375,7 +446,7 @@ img {
 
       			</td>
 
-      		<td width="500px">
+      		<td>
       				<div class="card">
   
   <div class="container">
@@ -387,8 +458,14 @@ img {
 
       			</td></tr>
 
-      		</table></center></div>
+      		</table></center></div> -->
 
+
+<div class="container col-md-4">
+        <br />
+        <a href="#" class="btn btn-primary center-block btn-lg btn-block" target="_blank">Sponsor Us</a>
+        <br><br>
+      </div>
 
       	</div>
       </section>
@@ -404,8 +481,14 @@ img {
               <h2 class="ftco-heading-2">Codepreneur Week</h2>
               <p align="justify">One week fully funded residential learning and interacting program for students across India. For every track, 25 students will be selected (on the basis of a rigorous selection process) for which GirlScript foundation will pay for their travel, accomodation, food, certificate, swags and learning materials.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="http://facebook.com/mitwpu.technocon" target="_blank"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/technocon.mitwpu" target="_blank"><span class="icon-instagram"></span></a></li></ul></ul>
+                <li class="ftco-animate"><a href="https://www.facebook.com/Girlscript/" target="_blank"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/girlscript/" target="_blank"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://in.linkedin.com/company/girlscript-foundation" target="_blank"><span class="icon-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://twitter.com/girlscript1" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.youtube.com/channel/UCBOlJtDcWNh0aUkS2CfI8Aw" target="_blank"><span class="icon-youtube"></span></a></li>
+
+
+            </ul></ul>
             </div>
           </div>
           <div class="col-md">
